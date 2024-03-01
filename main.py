@@ -4,7 +4,7 @@ import streamlit as st
 from sklearn.linear_model import LogisticRegression
 
 def main():
-    path = "classifier.pkl"
+    path = "classifier.sav"
     diabetes_model = pickle.load(open(path, 'rb'))
     
     # Page title
