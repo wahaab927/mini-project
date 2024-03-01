@@ -1,7 +1,6 @@
 import pickle
 import numpy as np
 import streamlit as st
-import sklearn
 from sklearn.linear_model import LogisticRegression
 
 def main():
