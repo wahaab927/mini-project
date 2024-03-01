@@ -5,7 +5,7 @@ import sklearn
 from sklearn.linear_model import LogisticRegression
 
 def main():
-    path = "C:\\Users\\abdul\\OneDrive\\Desktop\\minproject\\classifier.pkl"
+    path = "classifier.pkl"
     diabetes_model = pickle.load(open(path, 'rb'))
     
     # Page title
