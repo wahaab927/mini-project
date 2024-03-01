@@ -28,11 +28,11 @@ def main():
 
     # Code for Prediction
     diab_diagnosis=''
-    diab_diagnosis = diabetes_model.predict([[age, hypertension, heart_disease, bmi, hb_alc, glucose]])
     
     # Creating a button for Prediction
     if st.button('Diabetes Test Result'):
         input_data = [int(age), int(hypertension), int(heart_disease), float(bmi), float(hb_alc), int(glucose)]
+        
         data = np.asarray(input_data)
         data_reshaped = data.reshape(1, -1)
         
